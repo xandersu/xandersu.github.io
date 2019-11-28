@@ -5,13 +5,16 @@
   
 
   
-  <title>Hexo</title>
+  <title>传统Java Web非Spring Boot项目从Spring Cloud Eureka中获取服务 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+  <meta name="description" content="更新日志：2018&#x2F;3&#x2F;3 21:05:43 新建2018&#x2F;3&#x2F;11 7:11:59 新增注册到Eureka、从Eureka注销、新增Feign，更新配置文件，更新代码 部门项目的技术框架从 ZooKeeper+Dubbo 转型为Spring Cloud 微服务，转型顺利、开发方便、使用良好，于是完全废弃了ZooKeeper+Dubbo，而Web端后台管理界面的项目由于种种原因不希望大规模重构为S">
+<meta property="og:type" content="article">
+<meta property="og:title" content="传统Java Web非Spring Boot项目从Spring Cloud Eureka中获取服务">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;28&#x2F;%E4%BC%A0%E7%BB%9FJava%20Web%E9%9D%9ESpring%20Boot%E9%A1%B9%E7%9B%AE%E4%BB%8ESpring%20Cloud%20Eureka%E4%B8%AD%E8%8E%B7%E5%8F%96%E6%9C%8D%E5%8A%A1&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="更新日志：2018&#x2F;3&#x2F;3 21:05:43 新建2018&#x2F;3&#x2F;11 7:11:59 新增注册到Eureka、从Eureka注销、新增Feign，更新配置文件，更新代码 部门项目的技术框架从 ZooKeeper+Dubbo 转型为Spring Cloud 微服务，转型顺利、开发方便、使用良好，于是完全废弃了ZooKeeper+Dubbo，而Web端后台管理界面的项目由于种种原因不希望大规模重构为S">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-11-28T07:19:43.561Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -59,9 +62,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-传统Java Web非Spring Boot项目从Spring Cloud Eureka中获取服务" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-传统Java Web非Spring Boot项目从Spring Cloud Eureka中获取服务" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/11/28/%E4%BC%A0%E7%BB%9FJava%20Web%E9%9D%9ESpring%20Boot%E9%A1%B9%E7%9B%AE%E4%BB%8ESpring%20Cloud%20Eureka%E4%B8%AD%E8%8E%B7%E5%8F%96%E6%9C%8D%E5%8A%A1/" class="article-date">
   <time datetime="2019-11-28T07:18:43.512Z" itemprop="datePublished">2019-11-28</time>
@@ -74,8 +75,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/28/%E4%BC%A0%E7%BB%9FJava%20Web%E9%9D%9ESpring%20Boot%E9%A1%B9%E7%9B%AE%E4%BB%8ESpring%20Cloud%20Eureka%E4%B8%AD%E8%8E%B7%E5%8F%96%E6%9C%8D%E5%8A%A1/">传统Java Web非Spring Boot项目从Spring Cloud Eureka中获取服务</a>
+    <h1 class="article-title" itemprop="name">
+      传统Java Web非Spring Boot项目从Spring Cloud Eureka中获取服务
     </h1>
   
 
@@ -661,97 +662,19 @@ public xxxEntity get(@RequestParam(required = false) String id) {
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-test-my-site" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/11/28/test-my-site/" class="article-date">
-  <time datetime="2019-11-28T06:41:14.000Z" itemprop="datePublished">2019-11-28</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/28/test-my-site/">test_my_site</a>
-    </h1>
+    <a href="/2019/11/28/test-my-site/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">test_my_site</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<h2 id="title-Hello-World"><a href="#title-Hello-World" class="headerlink" title="title: Hello World"></a>title: Hello World</h2>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/28/test-my-site/" data-id="ck3ie1e9700017ovf7zlmh6xj" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/11/28/hello-world/" class="article-date">
-  <time datetime="2019-11-28T06:40:16.245Z" itemprop="datePublished">2019-11-28</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/28/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo server</span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo generate</span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/28/hello-world/" data-id="ck3ie1ea400027ovf2l9jdoub" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         
