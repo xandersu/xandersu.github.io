@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="xandersu的自留地">
 <meta property="og:description" content="更新日志：2018&#x2F;3&#x2F;3 21:05:43 新建2018&#x2F;3&#x2F;11 7:11:59 新增注册到Eureka、从Eureka注销、新增Feign，更新配置文件，更新代码 部门项目的技术框架从 ZooKeeper+Dubbo 转型为Spring Cloud 微服务，转型顺利、开发方便、使用良好，于是完全废弃了ZooKeeper+Dubbo，而Web端后台管理界面的项目由于种种原因不希望大规模重构为S">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-28T07:19:43.561Z">
+<meta property="og:updated_time" content="2019-11-28T07:54:08.411Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="xandersu的自留地" type="application/atom+xml">
@@ -174,6 +174,8 @@
       
         <p>更新日志：<br>2018/3/3 21:05:43 新建<br>2018/3/11 7:11:59 新增注册到Eureka、从Eureka注销、新增Feign，更新配置文件，更新代码</p>
 <p>部门项目的技术框架从 ZooKeeper+Dubbo 转型为Spring Cloud 微服务，转型顺利、开发方便、使用良好，于是完全废弃了ZooKeeper+Dubbo，而Web端后台管理界面的项目由于种种原因不希望大规模重构为Spring Boot项目，继续保持原有的SSM框架，并使用http调用微服务接口。为避免将微服务地址写死，这就需要Web项目连接到Spring Cloud Eureka 上通过服务名获取微服务真实地址。</p>
+<a id="more"></a>
+
 <h2 id="项目依赖"><a href="#项目依赖" class="headerlink" title="项目依赖"></a>项目依赖</h2><pre><code>&lt;!-- eureka 服务发现 --&gt;
 &lt;dependency&gt;
       &lt;groupId&gt;com.netflix.eureka&lt;/groupId&gt;
