@@ -9,13 +9,14 @@
   <title>传统Java Web非Spring Boot项目从Spring Cloud Eureka中获取服务 | xandersu的自留地</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="更新日志：2018&#x2F;3&#x2F;3 21:05:43 新建2018&#x2F;3&#x2F;11 7:11:59 新增注册到Eureka、从Eureka注销、新增Feign，更新配置文件，更新代码 部门项目的技术框架从 ZooKeeper+Dubbo 转型为Spring Cloud 微服务，转型顺利、开发方便、使用良好，于是完全废弃了ZooKeeper+Dubbo，而Web端后台管理界面的项目由于种种原因不希望大规模重构为S">
+<meta name="keywords" content="开发 封装">
 <meta property="og:type" content="article">
 <meta property="og:title" content="传统Java Web非Spring Boot项目从Spring Cloud Eureka中获取服务">
 <meta property="og:url" content="http:&#x2F;&#x2F;xandeusu.github.io&#x2F;2019&#x2F;11&#x2F;28&#x2F;%E4%BC%A0%E7%BB%9FJava%20Web%E9%9D%9ESpring%20Boot%E9%A1%B9%E7%9B%AE%E4%BB%8ESpring%20Cloud%20Eureka%E4%B8%AD%E8%8E%B7%E5%8F%96%E6%9C%8D%E5%8A%A1&#x2F;index.html">
 <meta property="og:site_name" content="xandersu的自留地">
 <meta property="og:description" content="更新日志：2018&#x2F;3&#x2F;3 21:05:43 新建2018&#x2F;3&#x2F;11 7:11:59 新增注册到Eureka、从Eureka注销、新增Feign，更新配置文件，更新代码 部门项目的技术框架从 ZooKeeper+Dubbo 转型为Spring Cloud 微服务，转型顺利、开发方便、使用良好，于是完全废弃了ZooKeeper+Dubbo，而Web端后台管理界面的项目由于种种原因不希望大规模重构为S">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-28T07:54:08.411Z">
+<meta property="og:updated_time" content="2019-11-29T03:46:32.872Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="xandersu的自留地" type="application/atom+xml">
@@ -178,8 +179,6 @@
       
         <p>更新日志：<br>2018/3/3 21:05:43 新建<br>2018/3/11 7:11:59 新增注册到Eureka、从Eureka注销、新增Feign，更新配置文件，更新代码</p>
 <p>部门项目的技术框架从 ZooKeeper+Dubbo 转型为Spring Cloud 微服务，转型顺利、开发方便、使用良好，于是完全废弃了ZooKeeper+Dubbo，而Web端后台管理界面的项目由于种种原因不希望大规模重构为Spring Boot项目，继续保持原有的SSM框架，并使用http调用微服务接口。为避免将微服务地址写死，这就需要Web项目连接到Spring Cloud Eureka 上通过服务名获取微服务真实地址。</p>
-<a id="more"></a>
-
 <h2 id="项目依赖"><a href="#项目依赖" class="headerlink" title="项目依赖"></a>项目依赖</h2><pre><code>&lt;!-- eureka 服务发现 --&gt;
 &lt;dependency&gt;
       &lt;groupId&gt;com.netflix.eureka&lt;/groupId&gt;
@@ -775,6 +774,17 @@ public xxxEntity get(@RequestParam(required = false) String id) {
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag article-tag-list-link color1">开发 封装</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -839,9 +849,18 @@ public xxxEntity get(@RequestParam(required = false) String id) {
   
 <nav id="article-nav">
   
+    <a href="/2019/11/29/%E9%AB%98%E7%BA%A7%E5%BC%80%E5%8F%91%E9%83%BD%E6%98%AF%E5%B0%81%E8%A3%85%E7%8B%82%E9%AD%94%EF%BC%9F/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          高级开发都是封装狂魔？
+        
+      </div>
+    </a>
   
-    <a href="/2019/11/28/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+  
+    <a href="/2019/11/28/test-my-site/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">test_my_site</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -965,6 +984,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color1">开发 封装</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" target="_blank" rel="noopener" class="js-tag color1">开发,封装</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
