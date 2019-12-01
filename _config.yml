@@ -4,12 +4,12 @@
 
 # Site
 title: xandersu的自留地
-subtitle: ''
-description: ''
+subtitle: '勇者终将成为恶龙'
+description: 'Java Developer'
 keywords:
 author: xandersu
 language: zh-CN
-timezone: ''
+timezone: 'Developer,开源'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -98,8 +98,6 @@ deploy:
   type: git
   repository: https://github.com/xandersu/xandersu.github.io.git
   branch: master
-  user.email: 840595532@qq.com
-
 
 
 

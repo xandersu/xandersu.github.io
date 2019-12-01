@@ -1,5 +1,6 @@
 ---
 title: 传统Java Web非Spring Boot项目从Spring Cloud Eureka中获取服务
+tags: 
 ---
 
 更新日志：
